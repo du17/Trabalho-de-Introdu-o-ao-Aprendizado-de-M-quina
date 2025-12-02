@@ -1,16 +1,16 @@
-# 📊 Projeto: Geração Distribuída de Energia no Brasil  
+# Projeto: Geração Distribuída de Energia no Brasil  
 ### CMPINAM — Modelagem, Análise e Avaliação
 
 ---
 
-## 👥 Integrantes do Grupo
+## Integrantes do Grupo
 - **Nycholas Victor Hayashida de Oliveira**  
 - **Eduarda Machado Carreira**  
 - **Antonio Rafael Debroi Magalhães**
 
 ---
 
-## 🌱 Tema do Projeto
+## Tema do Projeto
 Este projeto tem como objetivo analisar dados reais de **Geração Distribuída de Energia no Brasil**, com foco em usinas fotovoltaicas conectadas à rede, e desenvolver **modelos de Aprendizado de Máquina** capazes de prever a **potência instalada (kW)** com base em características cadastrais das unidades geradoras.
 
 O estudo inclui:
@@ -22,7 +22,7 @@ O estudo inclui:
 
 ---
 
-## 🗂️ Estrutura do Repositório
+## Estrutura do Repositório
 
 ```
 ├── Parte2_Completa_Com_Texto_e_Codigo.ipynb   # Notebook com texto + códigos de ML  
@@ -33,7 +33,7 @@ O estudo inclui:
 
 ---
 
-## ⚙️ Instruções de Execução
+## Instruções de Execução
 
 ### **1. Dependências necessárias**
 Antes de rodar os notebooks, instale as bibliotecas necessárias:
@@ -50,7 +50,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 
 ---
 
-## 🔍 Principais Etapas do Projeto
+## Principais Etapas do Projeto
 
 ### **1. Análise Exploratória (EDA)**
 - Distribuição da potência instalada  
@@ -77,7 +77,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 
 ---
 
-## 🏆 Principais Resultados
+## Principais Resultados
 
 | Modelo               | R²   | RMSE (kW) | MAE (kW) |
 |---------------------|------|-----------|----------|
@@ -85,7 +85,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 | KNN                 | 0.78 | 3.0       | 1.7      |
 | **Random Forest**   | **0.93** | **1.9** | **0.8**  |
 
-### ✔ Modelo vencedor: **Random Forest Regressor**
+### Modelo vencedor: **Random Forest Regressor**
 
 Motivos:
 - Captura relações não lineares  
@@ -93,7 +93,7 @@ Motivos:
 - Excelente capacidade preditiva (R² > 0.90)  
 - Permite interpretar importância das variáveis  
 
-### 🔑 Variáveis mais importantes:
+### Variáveis mais importantes:
 1. Município  
 2. Classe de fornecimento  
 3. Modalidade de consumo  
@@ -102,7 +102,7 @@ Motivos:
 
 ---
 
-## 📌 Conclusões Gerais
+## Conclusões Gerais
 
 - A potência instalada pode ser prevista com **alta precisão** utilizando modelos não lineares.  
 - A Geração Distribuída no Brasil apresenta **forte dependência regional**.  
@@ -112,7 +112,7 @@ Motivos:
 
 ---
 
-## 📬 Contato
+## Contato
 Para dúvidas ou melhorias, entre em contato com os integrantes do grupo.
 
 ---
